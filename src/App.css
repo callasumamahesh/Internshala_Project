@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+i{
+    font-size: 1.2rem
+}
+body{
+    font-size: 14px;
+    font-family: "Noto Sans";
+}
+.header{
+    width: 100%;
+    background-color: #B6AFAF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    color: white;
+}
+select#selectfile{
+    padding: 10px;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.totalSearchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.totalSearchbar input[type="text"]{
+    padding: 12px;
+    outline: none;
+    border: none;
+}
+.totalSearchbar p{
+    color: black;
+    padding: 10px;
+    padding-right: 1rem;
+}
+.totalsearchdiv{
+    display: flex;
+}
+#selectfile .option{
+    padding: 12px;
+    border: none;
+}
+#selectfile{
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.Addnewbtn{
+    padding: 12px;
+    background-color: green;
+    border: none;
+    border-radius: 30px;
+    max-width: 150px;
+    margin:1rem;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    gap: 1rem;
+}
+.btn{
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    gap: 2rem;
+}
+.profile i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.navbar{
+    width: 10%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.navbar div{
+    width: 90px;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.dashboard{
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+}
+.process{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.allsides{
+    display: flex;
+    flex-direction: row;
+}
+.changebackground{
+    background-color: green;
+    color: white;
+}
+.nobackground{
+    background-color: rgb(182, 175, 175);
+    cursor: pointer;
+}
+
+/* RightSide */
+.rightside{
+    width: 90%;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #ede9e9;
+}
+.consultants{
+    overflow-y: hidden;
+    display: flex;
+    padding: 10px;
+    gap: 1rem;
+    width: 97%;
+    background-color: white;
+    margin: 0.5rem 1rem;
+}
+.consultants p{
+    color: green;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 600;
+}
+.filters{
+    display: flex;
+    padding: 0.3rem;
+    width: 97%;
+    gap: 2rem;
+    margin: 0.5rem 1rem;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: center;
+}
+.filters p{
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+.filters select{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.radiobuttons{
+    display: flex;
+    gap: 1rem;
+}
+.radiobuttons div label{
+    margin: 0rem 0.3rem;
+}
+.divindives{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.alldives{
+    margin: 0.3rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.firstdiv{
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color: white;
+}
+.firstdiv div i{
+    background-color: #B6AFAF;
+    padding: 10px;
+    border-radius: 50%;
+}
+.divindivremes p{
+    font-weight: 600;
+}
+.color{
+    color: green;
+    font-weight: 600;
+}
+.tbody{
+    padding: 10px;
+    border: 1px solid black;
+}
+.table{
+    background-color: white;
+    margin: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.tablehead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+}
+.arrows{
+    display: flex;
+    gap: 1.5rem;
+}
+.tbody{
+    width: 97%;
+    border-collapse: collapse;
+}
+.tbody thead tr th{
+    width:210px;
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.row tr td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+@media (max-width:550px){
+    .header{
+        flex-direction: column;
+    }
+    .searchbar{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .navbar nav{
+        max-width: 100%;
+    }
+    .navbar div{
+        width: 85px;
+    }
+    .navbar {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .allsides{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .dashboard{
+        flex-direction: row;
+    }
+
+    .process{
+        flex-direction: row;
+    }
+    .allsides{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .filters{
+        flex-direction: column;
+    }
+}
